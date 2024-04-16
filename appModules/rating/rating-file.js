@@ -9,7 +9,7 @@ async function makeRatingFile(path, array) {
       let obj = {
         id: item.id,
         title: item.title,
-        image: item.title,
+        image: item.image,
         link: item.link,
         description: item.description,
         rating: 0,
